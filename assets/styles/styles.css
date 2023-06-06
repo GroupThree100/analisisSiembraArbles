@@ -1,0 +1,52 @@
+body {
+    background-image: url('../img/backGround.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.centered-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .centered-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .centered-list li {
+    margin-bottom: 10px;
+  }
+  
+  .centered-list a {
+    text-align: center;
+    width: 300px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+  }
+.centered-list a:hover,
+.centered-list a:focus,
+.centered-list a:active {
+  text-decoration: none;
+  outline: none;
+}
+.centered-list a:hover {
+  color: rgb(122, 247, 247);
+  background-color: #555;
+}
+
+
+#logo{
+    border-color: black; 
+    border-radius: 20px;
+    height: 100px;
+    width: 100px
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="icon" href="../../assets/img/icon.png" type="image/png">
+    <link rel="stylesheet" href="../stylesView/stylesViews.css">
+    <title>Santa fe de antioquia</title>
+</head>
+
+<body>
+    <main>
+        <section class="container my-5">
+            <div class="row">
+                <div class="col-12 col-md-8 align-self-center">
+                    <h2>Santa fe de antioquia</h2>
+                    <p>
+                        Santa Fe de Antioquia es una ciudad del noroeste de Colombia. Es conocida por sus edificios coloniales, las calles con adoquines y los caramelos de tamarindo. El Puente de Occidente, de madera y acero, fue construido en el siglo XIX por el ingeniero local José María Villa (quien también trabajó en el Puente de Brooklyn, en Nueva York) y está suspendido sobre el río Cauca en el noreste. En la plaza principal de la ciudad, se encuentra la Catedral Metropolitana encalada, con su alta torre.
+                    </p>
+                    <h1>Ubicación</h1>
+                    <div class="image-container">
+                            <img src="../../assets/img/santafe.jfif" class="w-100" height="400px" alt="Imagen de Yarumal">
+                        <div class="overlay">
+                        <a href="https://www.google.com/maps/dir//Santa+F%C3%A9+de+Antioquia,+Antioquia/@6.5571773,-75.8683289,13z/data=!3m1!4b1!4m9!4m8!1m0!1m5!1m1!1s0x8e45c7f203519c81:0x120c657dee28c835!2m2!1d-75.827129!2d6.557179!3e3?entry=ttu" target="_blank">
+                            <p class="message">Presióname</p>
+                        </a>
+                        </div>
+                    </div>
+                    <div class="mt-3">
+                        <button class="btn btn-primary" type="button" id="idbtngenerarreporte">Generar </button>
+                    </div>
+                    <div class="d-none my-5" id="conenedor">
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="home-tab" data-bs-toggle="tab"
+                                    data-bs-target="#home-tab-pane" type="button" role="tab"
+                                    aria-controls="home-tab-pane" aria-selected="true"> Datos siembrasmayores a 250 arboles</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel"
+                                aria-labelledby="home-tab" tabindex="0">
+                                <iframe src="URL/TABLA/VEREDAMALLARINO" class="w-100" height="400px"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="cotainer_image">
+                        <h3>Diagrama de Barras</h3>
+                        <img class="barcode-images" src="../../assets/img/arboles.png" alt="Código de barras">
+                    </div>
+                </div>
+        </section>
+    </main>
+
+
+    <footer class="footer bg-dark text-light">
+        <div class="container py-4">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>About Us</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tristique varius leo, sed iaculis
+                        urna vestibulum ut.</p>
+                </div>
+                <div class="col-md-6">
+                    <h5>Contact</h5>
+                    <ul class="list-unstyled">
+                        <li>Phone: 123-456-7890</li>
+                        <li>Email: info@example.com</li>
+                        <li>Address: 123 Street, City, Country</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            &copy; 2023 Your Company. All rights reserved.
+        </div>
+    </footer>
+    <script src="../stylesView/index.js"></script>
+</body>
+
+</html>
