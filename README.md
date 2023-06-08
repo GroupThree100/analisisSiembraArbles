@@ -2,7 +2,7 @@
 
 
 ### Analisis Siembra de Arboles <img src="https://github.com/rajput2107/rajput2107/blob/master/Assets/Earth.gif" width="24px">
-<em>En este proyecto podras encontrar las estadisticas de algunos municipios de Antioquia referente a la siembra de arboles para la continuo ayuda a mejorar nuestro medio hambiente <img src="https://github.com/rajput2107/rajput2107/blob/master/Assets/PC.gif" height="20px"/>.
+<em>En este proyecto podrás encontrar las estadísticas de algunos municipios de Antioquia, referente a la siembra de árboles para la ayuda continua al mejoramiento de nuestro medio ambiente <img src="https://github.com/rajput2107/rajput2107/blob/master/Assets/PC.gif" height="20px"/>.
 
  </em>
  <br/>
@@ -14,5 +14,25 @@
 	- Belmira
 	- Bello
 	- Caramanta
+	
+ <br/>
+Tendrás la ayuda de una interfaz gráfica amigable y fácil de manejar, ya que por medio de esta podrás descargar diversas tablas o gráficas según el municipio de su elección.
+
+## 🔭 Participantes ...
+<a href="https://github.com/DUVAN100" target="blank">
+  <img align="center" alt="Pramod's Twitter" width="30px" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" /> &nbsp;
+ </a>Duvan Vivas<br/>
+
+<a href="https://github.com/SirtWood" target="blank">
+  <img align="center" alt="Pramod's Twitter" width="30px" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" /> &nbsp;
+ </a>Steven Torres <br/> 
+ 
+<a href="https://github.com/vaneacostatj" target="blank">
+  <img align="center" alt="Pramod's Twitter" width="30px" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" /> &nbsp;
+ </a>Vanessa Acosta
+<br/>
+  <br/>
+
+
 
 
