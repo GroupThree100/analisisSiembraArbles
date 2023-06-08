@@ -20,16 +20,16 @@ Tendrás la ayuda de una interfaz gráfica amigable y fácil de manejar, ya que 
 
 ## 🔭 Participantes ...
 <a href="https://github.com/DUVAN100" target="blank">
-  <img align="center" alt="Pramod's Twitter" width="30px" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" /> &nbsp;
- </a>Duvan Vivas<br/>
+  <img align="center" alt="Pramod's Twitter" width="30px" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" /> &nbsp; Duvan Vivas
+ </a><br/>
 
 <a href="https://github.com/SirtWood" target="blank">
-  <img align="center" alt="Pramod's Twitter" width="30px" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" /> &nbsp;
- </a>Steven Torres <br/> 
+  <img align="center" alt="Pramod's Twitter" width="30px" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" /> &nbsp;Steven Torres
+ </a> <br/> 
  
 <a href="https://github.com/vaneacostatj" target="blank">
-  <img align="center" alt="Pramod's Twitter" width="30px" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" /> &nbsp;
- </a>Vanessa Acosta
+  <img align="center" alt="Pramod's Twitter" width="30px" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" /> &nbsp;Vanessa Acosta
+ </a>
 <br/>
   <br/>
 
