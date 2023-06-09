@@ -9,13 +9,13 @@ def graficarEstadisticas(dataFrame, campoX, campoY, nombreGrafica):
     #Generar gráfica
     plt.bar(data.index, data, color=colores)
 
-    plt.title("Cantidad de Árboles por vereda", pad=20)
+    plt.title("Caucasia", pad=20)
     plt.xlabel("Vereda")
     plt.ylabel("Cantidad de Árboles", labelpad=10)
 
     plt.xticks(rotation=90)
 
-    plt.subplots_adjust(left=0.3, bottom=0.5)
+    plt.subplots_adjust(left=0.3, bottom=0.3)
 
-    plt.savefig(f'./assets/img/caucasia/{nombreGrafica}.png')
+    plt.savefig(f'./assets/img/Caucasia/{nombreGrafica}.png')
     plt.show()
