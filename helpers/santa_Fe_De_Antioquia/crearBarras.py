@@ -9,7 +9,7 @@ def graficarEstadisticas(dataFrame, campoX, campoY, nombreGrafica):
     #Generar gráfica
     plt.bar(data.index, data, color=colores)
 
-    plt.title("Belmira - Rio Arriba")
+    plt.title("Santa Fé de Antioquia")
     plt.xlabel("Vereda")
     plt.ylabel("Cantidad de Árboles")
 
@@ -17,5 +17,5 @@ def graficarEstadisticas(dataFrame, campoX, campoY, nombreGrafica):
 
     plt.subplots_adjust(left=0.2)
 
-    plt.savefig(f'./assets/img/Belmira/rio_arriba/{nombreGrafica}.png')
-    #plt.show()
+    plt.savefig(f'./assets/img/Santa_Fe_De_Antioquia/{nombreGrafica}.png')
+    plt.show()

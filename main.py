@@ -1,8 +1,12 @@
 import pandas as pd
-from helpers.santa_Fe_De_Antioquia.crearTablas import crearTabla
-from helpers.caucasia.crearBarras import graficarEstadisticas as graficarEstadisticasCaucasia
-from helpers.belmira.la_salazar.crearBarras import graficarEstadisticas as graficarEstadisticasLaSalazar
-from helpers.belmira.rio_arriba.crearBarras import graficarEstadisticas as graficarEstadisticasRioArriba
+from helpers.Santa_Fe_De_Antioquia.crearTablas import crearTabla as graficarTablaStaFe
+from helpers.Santa_Fe_De_Antioquia.crearBarras import graficarEstadisticas as graficarBarrasStaFe
+from helpers.Belmira.la_salazar.crearTablas import crearTabla as graficarTablaLaSalazar
+from helpers.Belmira.rio_arriba.crearTablas import crearTabla as graficarTablaRioArriba
+from helpers.Belmira.la_salazar.crearBarras import graficarEstadisticas as graficarBarrasLaSalazar
+from helpers.Belmira.rio_arriba.crearBarras import graficarEstadisticas as graficarBarrasRioArriba
+from helpers.Caucasia.crearTablas import crearTabla as graficarTablaCaucasia
+from helpers.Caucasia.crearBarras import graficarEstadisticas as graficarBarrasCaucasia
 from helpers.Bello.crearTablaHtml import crearTablaBelloQuitasol
 from helpers.Bello.crearBarras import graficarVeredasQuitasol
 from helpers.Bello.crearTorta import calcularPromedioArbolesPorNombreComun
@@ -15,9 +19,23 @@ from helpers.Yarumal.crearTablaHtml import crearTablaVeredaMarinillo
 siembras=pd.read_csv("./data/Siembras.csv")
 
 cantidadArboles=siembras.query('Arboles > 250 and Ciudad == "Santa Fe de Antioquia" ')
-datosGeneralesCaucasia=siembras.query('Ciudad == "Caucasia" ')
 datosGeneralesBelmiraLaSalazar=siembras.query('Ciudad == "Belmira" and Vereda == "La Salazar"')
 datosGeneralesBelmiraRioArriba=siembras.query('Ciudad == "Belmira" and Vereda == "Rio Arriba"')
+datosGeneralesCaucasia=siembras.query('Ciudad == "Caucasia" ')
+
+# ----------------- Santa_Fe_De_Antioquia
+graficarTablaStaFe(cantidadArboles, 'Tabla_Santa_Fe_De_Antioquia')
+graficarBarrasStaFe(cantidadArboles, 'Hectareas', 'Arboles', 'Barras_Santa_Fe_De_Antioquia')
+
+# ----------------- Belmira
+graficarTablaLaSalazar(datosGeneralesBelmiraLaSalazar, 'Tabla_La_Salazar')
+graficarTablaRioArriba(datosGeneralesBelmiraRioArriba, 'Tabla_Rio_Arriba')
+graficarBarrasLaSalazar(datosGeneralesBelmiraLaSalazar, 'Hectareas', 'Arboles', 'Barras_La_Salazar')
+graficarBarrasRioArriba(datosGeneralesBelmiraRioArriba, 'Hectareas', 'Arboles', 'Barras_Rio_Arriba')
+
+# ----------------- Caucasia
+graficarTablaCaucasia(datosGeneralesCaucasia, 'Tabla_Caucasia')
+graficarBarrasCaucasia(datosGeneralesCaucasia, 'Hectareas', 'Arboles', 'Barras_Caucasia')
 
 
 

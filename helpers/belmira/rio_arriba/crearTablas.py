@@ -1,7 +1,7 @@
 
 def crearTabla(dataFrame, nombreTabla):
     archivoHTML=dataFrame.to_html()
-    archivo=open(f"./tablas/Santa_Fe_De_Antioquia/{nombreTabla}.html","w")
+    archivo=open(f"./tablas/Belmira/rio_arriba/{nombreTabla}.html","w")
     archivo.write(''' 
     <!DOCTYPE html>
     <html lang="en">
